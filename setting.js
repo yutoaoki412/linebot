@@ -6,8 +6,7 @@ const LINE_ACCESS_TOKEN = PROPS.getProperty('LINE_ACCESS_TOKEN');
 // 使用API
 const LINE_REPLY_URL = 'https://api.line.me/v2/bot/message/reply';
 const CHAT_GPT_URL   = "https://api.openai.com/v1/chat/completions";
-const CHAT_GPT_VER   = "gpt-3.5-turbo-0613"; // or gpt-4-0613
-// const CHAT_GPT_VER   = "gpt-3.5-turbo-16k"; // 一度のやり取りで16000トークンまで使用可能
+const CHAT_GPT_VER   = "gpt-3.5-turbo-1106"; // or gpt-4-1106-preview
 
 // スプレッドシートの情報
 const SS         = SpreadsheetApp.getActiveSpreadsheet();
